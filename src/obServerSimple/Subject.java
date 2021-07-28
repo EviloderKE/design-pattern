@@ -1,7 +1,7 @@
-package obServer;
+package obServerSimple;
 
 /**
- * 主题(被观察者)
+ * 被观察者
  */
 public interface Subject {
 
@@ -9,5 +9,5 @@ public interface Subject {
 
     void removeObServer(ObServer obServer);
 
-    void notifyObServers();
+    void notifyObServer();
 }
